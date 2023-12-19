@@ -24,6 +24,8 @@ import urllib
 import math
 from urllib.request import urlopen
 import string
+import collections
+collections.Callable = collections.abc.Callable
 from bs4 import BeautifulSoup
 import urllib.parse
 
